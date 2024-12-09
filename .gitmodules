@@ -1,0 +1,9 @@
+[submodule "src/kuka_fri"]
+	path = src/kuka_fri
+	url = git@github.com:HAJEKEL/kuka_fri.git
+[submodule "src/iiwa_impedance_control"]
+	path = src/iiwa_impedance_control
+	url = git@github.com:HAJEKEL/iiwa_impedance_control.git
+[submodule "src/iiwa_ros"]
+	path = src/iiwa_ros
+	url = git@github.com:HAJEKEL/iiwa_ros.git

@@ -1,0 +1,10 @@
+{
+    "name": "Kuka Sigma7 Impedance Control",
+    "dockerFile": "../Dockerfile",
+    "workspaceFolder": "/home/henk/kuka_sigma7_impedance_ws",
+    "remoteUser": "henk",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/home/henk/kuka_sigma7_impedance_ws,type=bind,consistency=cached"
+    ],
+    "postCreateCommand": "source /opt/ros/noetic/setup.bash && catkin_make"
+}
